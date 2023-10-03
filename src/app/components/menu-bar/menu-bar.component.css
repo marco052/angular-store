@@ -1,0 +1,40 @@
+.container-menu-bar{
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 40px;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-menu-bar-item{
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.container-menu-bar-item > ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.container-menu-bar-item > ul > li{
+  margin-right: 30px;
+}
+
+.container-menu-bar-item > ul > li > a{
+  text-decoration: none;
+  padding: 2px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-menu-bar-item > ul > li > a:hover{
+  color: blue;
+  font-weight: 500;
+}
+
