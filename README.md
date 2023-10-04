@@ -1,27 +1,24 @@
-# AngularStore
+# Projeto Inspirado na PlayStation Store e na EA APP Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## Introdução
 
-## Development server
+Neste projeto, tomei como inspiração a PlayStation Store desenvolvida pelo professor Felipe, em conjunto com a loja do EA APP. A minha abordagem inicial foi focar na criação do frontend, incorporando alguns dados estáticos. À medida que o tempo avança, tenho planos de aprimorar ainda mais este projeto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o Projeto
 
-## Code scaffolding
+O projeto que desenvolvi é uma tentativa de criar uma experiência de loja de jogos online inspirada em duas fontes de referência notáveis: a PlayStation Store e a EA APP Store. Ambas são conhecidas por oferecerem uma vasta gama de jogos e conteúdos relacionados, proporcionando uma experiência de compra atraente para os usuários.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Objetivos Futuros
 
-## Build
+Embora o projeto atual se concentre principalmente no frontend e utilize dados estáticos, tenho planos ambiciosos para o futuro:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Implementar funcionalidades interativas para permitir que os usuários naveguem e comprem jogos.
+- Integrar um banco de dados para fornecer informações atualizadas sobre jogos e preços.
+- Desenvolver uma experiência de usuário mais rica e personalizável.
+- Explorar oportunidades de parceria com desenvolvedoras de jogos e editoras para adicionar conteúdo exclusivo.
 
-## Running unit tests
+Fique atento para as atualizações deste projeto, à medida que trabalharei diligentemente para torná-lo uma experiência de compra de jogos excepcional!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*Nota: Este projeto é uma iniciativa pessoal de aprendizado e não possui afiliação oficial com a PlayStation Store, a EA APP Store ou qualquer outra entidade relacionada.*
