@@ -1,11 +1,10 @@
 .container-home{
   width: 90%;
-  border: solid 1px rgb(255, 0, 0);
   margin: auto;
   padding-top: 50px;
   display: flex;
 
-  justify-content: space-around;
+  align-content: flex-start;
   align-items: baseline;
   flex-wrap: wrap;
 }

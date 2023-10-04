@@ -1,12 +1,15 @@
-<div class="container-card">
-  <h1><div class="container-card-cover">
-    <a href="">
-      <img
-        src="../../../assets/ea-fc-cover.jpg"
-        alt=""
-        width="300px"
-        height="300px"
-      >
-    </a>
-  </div></h1>
-</div>
+
+<a href="#" class="container-card">
+  <div class="container-card-cover">
+    <img
+      src={{gameCover}}
+      alt=""
+    >
+    <app-card-tag *ngIf="playWithEAPlay"></app-card-tag>
+  </div>
+
+  <app-card-details
+    gameName= {{gameName}}
+    gamePrice= {{gamePrice}}
+  ></app-card-details>
+</a>

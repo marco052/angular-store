@@ -1,3 +1,36 @@
 .container-card{
-  color: brown;
+  display: flex;
+  overflow: hidden;
+
+  margin: 20px 10px;
+  width: 300px;
+  height: auto;
+
+  flex-direction: column;
+  text-decoration: none;
 }
+
+.container-card-cover{
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  transition: transform .25s;
+  border-radius: 20px;
+
+}
+
+.container-card-cover>img{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.container-card:hover  .container-card-cover{
+  transform: translate(0, -10px);
+}
+
+
+
+

@@ -34,7 +34,20 @@
 }
 
 .container-menu-bar-item > ul > li > a:hover{
-  color: blue;
+  color: #FF4747;
   font-weight: 500;
 }
+
+.container-menu-bar-logo > img{
+  margin-top: 4px;
+  margin-left: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+.container-menu-bar-logo {
+  justify-content: center;
+
+}
+
 
